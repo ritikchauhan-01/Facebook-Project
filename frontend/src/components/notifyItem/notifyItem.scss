@@ -1,0 +1,44 @@
+.notify_item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dbdaff;
+    cursor: pointer;
+
+    &:last-child {
+      border-bottom: 0px;
+    }
+
+    &:hover {
+      background: #01163128;
+    }
+
+    .notify_img {
+      // margin-right: 15px;
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+        object-fit: cover;
+      }
+    }
+
+    .notify_info {
+      color: black;
+      p {
+        margin-bottom: 5px;
+
+        span {
+          color: #605dff;
+          // margin-left: 5px;
+        }
+      }
+
+      .notify_time {
+        color: #c5c5e6;
+        font-size: 12px;
+      }
+    }
+  }

@@ -1,0 +1,11 @@
+server:
+  port: 6060
+
+spring:
+  application:
+    name: Facebook-Gateway
+  cloud:
+    consul:
+      host: localhost
+      discovery:
+        hostname: localhost

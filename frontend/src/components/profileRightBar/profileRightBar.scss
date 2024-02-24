@@ -1,0 +1,95 @@
+.profileRightBar {
+  flex: 3.5;
+  padding: 0 20px 0 0;
+
+  .profileRightBarHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+
+    .profileRightBarTitle {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .editButton {
+      border: none;
+      padding: 7px;
+      border-radius: 5px;
+      background-color: #011631;
+      color: white;
+      cursor: pointer;
+    }
+
+    .addFriendButton {
+      border: none;
+      padding: 7px 10px;
+      border-radius: 5px;
+      background-color: #011631;
+      color: white;
+      display: flex;
+      cursor: pointer;
+
+      .addFriendText {
+        margin-left: 10px;
+      }
+    }
+
+    .acceptFriendButton {
+      border: none;
+      padding: 7px 10px;
+      border-radius: 5px;
+      background-color: #23872f;
+      color: white;
+      display: flex;
+      cursor: pointer;
+
+      .addFriendText {
+        margin-left: 10px;
+      }
+    }
+
+    .withdrawFriendButton {
+      border: none;
+      padding: 7px 10px;
+      border-radius: 5px;
+      background-color: #ae2727;
+      color: white;
+      display: flex;
+      cursor: pointer;
+
+      .addFriendText {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .profileRightBarInfo {
+    margin-bottom: 30px;
+
+    .profileRightBarInfoItem {
+      margin-bottom: 10px;
+
+      .profileRightBarInfoKey {
+        font-weight: 500;
+        margin-right: 20px;
+      }
+      .profileRightBarInfoValue {
+        font-weight: 300;
+      }
+    }
+  }
+
+  .profileRightBarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profileRightBar {
+    display: none;
+  }
+}

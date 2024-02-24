@@ -1,0 +1,16 @@
+.notification_wrap {
+  width: 350px;
+  max-height: 500px;
+  margin: 15px auto 0;
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  overflow-y: scroll;
+
+  .dropdown {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.125);
+    display: block;
+  }
+}
